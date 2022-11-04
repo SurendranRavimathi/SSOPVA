@@ -193,8 +193,9 @@ async function fetchJSON(url, options = {}) {
 (async function main() {
 
     // Add your BOT ID below 
-    var BOT_ID = "036fb0c41e644194b1422fb9d2dabb2f";
-    var theURL = "https://powerva.microsoft.com/api/botmanagement/v1/directline/directlinetoken?botId=" + BOT_ID;
+    //var BOT_ID = "036fb0c41e644194b1422fb9d2dabb2f";
+    //var theURL = "https://powerva.microsoft.com/api/botmanagement/v1/directline/directlinetoken?botId=" + BOT_ID;
+	var theURL ="https://c746e26075e74764a12c5c9c524d03.55.environment.api.powerplatform.com/powervirtualagents/bots/036fb0c4-1e64-4194-b142-2fb9d2dabb2f/directline/token?api-version=2022-03-01-preview";
 
 	var userId = clientApplication.account?.accountIdentifier != null ? 
 					("You-customized-prefix" + clientApplication.account.accountIdentifier).substr(0, 64) 
